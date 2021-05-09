@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black"
+        android:queryHint="Search by student name"
+        android:layout_marginBottom="20dp"
+        android:iconifiedByDefault="false"
+        android:id="@+id/searchView" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/listView" />
+</LinearLayout>

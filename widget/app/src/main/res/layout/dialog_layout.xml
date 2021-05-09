@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/normal_back"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/nameDialog"
+        android:text="Name"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mrpDialog"
+        android:gravity="center"
+        android:text="Cgpa"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="EDIT"
+        android:textSize="20dp"
+        android:id="@+id/editDialogBtn"
+        android:padding="10dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@color/white" />
+
+</LinearLayout>

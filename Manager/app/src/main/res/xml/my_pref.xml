@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Notifications">
+    <RingtonePreference
+        android:defaultValue="content://settings/system/notification_sound"
+        android:dependency="notifications_new_message"
+        android:key="key_notifications_new_message_ringtone"
+        android:ringtoneType="notification"
+        android:summary="Choose notification sound"
+        android:title="Ringtone" />
+    </PreferenceCategory>
+</PreferenceScreen>

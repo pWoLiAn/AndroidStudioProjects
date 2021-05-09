@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Enter the Student ID: "
+        android:textColor="@color/white"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/studIdTb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter student ID here"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/findProductBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:text="FIND STUDENT"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

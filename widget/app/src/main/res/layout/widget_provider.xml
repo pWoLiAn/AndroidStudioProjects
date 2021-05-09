@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/back_custom"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_playlist_add_24"
+        android:layout_gravity="right"
+        android:id="@+id/gotoBtn"
+        app:tint="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOne"
+        android:textSize="20dp"
+        android:text="sample text1"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTwo"
+        android:textSize="20dp"
+        android:text="sample text2"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvThree"
+        android:visibility="gone"
+        android:textSize="20dp"
+        android:text="sample text3"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFour"
+        android:visibility="gone"
+        android:textSize="20dp"
+        android:text="sample text4"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+</LinearLayout>

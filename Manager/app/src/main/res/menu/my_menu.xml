@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="never"
+        android:id="@+id/myapp"
+        android:title="My app" />
+    <item
+        app:showAsAction="never"
+        android:id="@+id/selfie"
+        android:title="Selfie" />
+    <item
+        app:showAsAction="never"
+        android:id="@+id/exit"
+        android:title="Exit" />
+    <item
+        app:showAsAction="never"
+        android:id="@+id/control"
+        android:title="Control" />
+
+</menu>

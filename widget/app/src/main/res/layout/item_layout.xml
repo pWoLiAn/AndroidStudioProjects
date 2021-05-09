@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="8"
+        android:layout_marginHorizontal="20dp"
+        android:rowCount="5">
+
+        <TextView
+            android:id="@+id/idTv"
+            android:text="ID"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_rowSpan="5"
+            android:layout_columnSpan="2" />
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:text="Name"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_rowSpan="3"
+            android:layout_columnSpan="6" />
+
+        <TextView
+            android:id="@+id/cgpaTv"
+            android:text="Cgpa: 7.50"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:layout_rowSpan="2"
+            android:layout_columnSpan="3" />
+
+
+
+    </GridLayout>
+
+</LinearLayout>
